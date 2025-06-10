@@ -28,12 +28,14 @@ main p#home {
 	left: 0;
 	right: 0;
 	margin: auto;
-	width: 370px;
+	width:100%;
+	max-width: 640px;
 	height: fit-content;
 	padding: 30px;
 	border-radius: 10px;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.80);
 	line-height: 1.6;
+	font-size: 14px;
 }
 
 main p#home::before {
